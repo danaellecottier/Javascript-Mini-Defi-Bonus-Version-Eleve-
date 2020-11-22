@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mini DÉfi BONUS</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Mini défi <span class="number">BONUS</span> </h1>
+
+        <p class="instructions">Transforme les notes de ces élèves en succès ou échec à l'aide d'objets et de méthodes.</p>
+
+        <ol>
+            <li>Crée un objet par étudiant. Assure toi que chaque objet contienne le nom de l'étudiant, un "array" avec ses notes en lettres ainsi qu'un "array vide pour recevoir les résults succès ou échec".</li>
+            <li>Ajoute une méthode dans tes objets pour transformer les notes en succès ou échec. Les notes A, B, et C sont des succès alors que D et E sont des échecs. </li>
+                <ul class="sous-liste">
+                    <li>Dans ta méthode, déclare une nouvelle variable et asigne la variale de ton array vide (ex: let nouvelleVariable = this.variableArrayVide) </li>
+                    <li>Crée une "for loop" pour changer les notes en lettre en <span class="gras">succès</span> ou <span class="gras">échec.</span></li>
+                    <li>Utilise la méthode ".push" pour pousser les résultats dans ton array vide.</li>
+                </ul>
+            <li>Lorsque tu as terminé de construire ta méthode, n'oublie pas de l'appeler (à l'extérieur de ton objet)</li>
+            <li>Affiche les résultats finaux pour chacun des élèves dans la console en utilisant la variable pour le nom de l'élève ainsi que l'"array" avec les résultats succès ou échec. Utitilise la concatenation.</li>
+
+        </ol>
+
+
+        <!--
+        <span class="gras">A</span> = 95%, <span class="gras">B</span> = 80%, <span class="gras">C</span> = 70%, <span class="gras">D</span> = 55%, <span class="gras">E</span> = 40%) 
+        -->
+
+        <div class="eleve">
+            <div class="image">
+                <img src="img/eleve.jpg" alt="Élève">
+            </div>
+            <div class="info">
+                <h3>Samuel Alexander</h3>
+                <p> <span class="gras">Note #1: </span>D</p>
+                <p> <span class="gras">Note #2: </span>C</p>
+                <p> <span class="gras">Note #3: </span>A</p>
+                <p> <span class="gras">Note #4: </span>A</p>
+                <p> <span class="gras">Note #5: </span>B</p>
+            </div>
+        </div>
+        <div class="eleve">
+            <div class="image">
+                <img src="img/eleve2.jpg" alt="Élève">
+            </div>
+            <div class="info">
+                <h3>Charlotte Scott</h3>
+                <p> <span class="gras">Note #1: </span>D</p>
+                <p> <span class="gras">Note #2: </span>D</p>
+                <p> <span class="gras">Note #3: </span>B</p>
+                <p> <span class="gras">Note #4: </span>C</p>
+                <p> <span class="gras">Note #5: </span>B</p>
+            </div>
+        </div>
+        <div class="eleve">
+            <div class="image">
+                <img src="img/eleve3.jpg" alt="Élève">
+            </div>
+            <div class="info">
+                <h3>Zola Jones</h3>
+                <p> <span class="gras">Note #1: </span>A</p>
+                <p> <span class="gras">Note #2: </span>C</p>
+                <p> <span class="gras">Note #3: </span>A</p>
+                <p> <span class="gras">Note #4: </span>B</p>
+                <p> <span class="gras">Note #5: </span>B</p>
+            </div>
+        </div>
+        <div class="eleve">
+            <div class="image">
+                <img src="img/eleve4.jpg" alt="Élève">
+            </div>
+            <div class="info">
+                <h3>William Yang</h3>
+                <p> <span class="gras">Note #1: </span>D</p>
+                <p> <span class="gras">Note #2: </span>C</p>
+                <p> <span class="gras">Note #3: </span>E</p>
+                <p> <span class="gras">Note #4: </span>C</p>
+                <p> <span class="gras">Note #5: </span>B</p>
+            </div>
+        </div>
+
+    </div>
+      
+
+
+    <script src="app.js"></script>
+</body>
+</html>
